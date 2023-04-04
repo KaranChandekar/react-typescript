@@ -1,6 +1,6 @@
 type HeadingProps = {
-    children: string
-}
+  children: string;
+};
 
 const Heading = (props: HeadingProps) => {
   return <h2>{props.children}</h2>;

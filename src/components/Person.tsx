@@ -1,11 +1,11 @@
-type personProps = {
+type PersonProps = {
   name: {
     first: string;
     last: string;
   };
 };
 
-const Person = (props: personProps) => {
+const Person = (props: PersonProps) => {
   return (
     <div>
       {props.name.first} {props.name.last}
