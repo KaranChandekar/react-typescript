@@ -7,6 +7,7 @@ import Oscar from "./components/Oscar";
 import Person from "./components/Person";
 import PersonList from "./components/PersonList";
 import Status from "./components/Status";
+import Container from "./components/Container";
 
 function App() {
   const personName = {
@@ -48,12 +49,13 @@ function App() {
         <Heading>Oscar goes to Leonardo Dicaprio</Heading>
       </Oscar> */}
       {/* <Greet name="Karan" isLoggedIn={true} /> */}
-      <Button
+      {/* <Button
         handleClick={(event, id) => {
           console.log("Button clicked", event, id);
         }}
-      />
-      <Input value="" handleChange={(event) => console.log(event)} />
+      /> */}
+      {/* <Input value="" handleChange={(event) => console.log(event)} /> */}
+      <Container styles={{ border: "1px solid black", padding: "1rem" }} />
     </div>
   );
 }
